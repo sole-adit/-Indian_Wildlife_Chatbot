@@ -1,3 +1,4 @@
+---
 title: Indian Wildlife Chatbot
 emoji: 🏃
 colorFrom: pink
@@ -7,7 +8,7 @@ sdk_version: 1.42.1
 app_file: app.py
 pinned: false
 short_description: Wildlife, ecology and paleontology (and cultural references)
-
+---
 
 Indian Wildlife Chatbot 🌿🐾
 Overview

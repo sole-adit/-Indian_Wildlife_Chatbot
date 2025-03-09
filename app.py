@@ -5,8 +5,9 @@ import os
 import time
 
 #Initialising the groq client
-load_dotenv()
-api_key = os.getenv('api_key')
+api_key = os.getenv('GROQ_API_KEY')
+if not api_key:
+    raise ValueError("API key is missing or not set.")
 client = Groq(api_key= api_key)
 
 # Streamlit app title
